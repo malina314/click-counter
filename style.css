@@ -12,12 +12,13 @@ p {
 
 #add {
     padding: 12px;
-    height: 80vh;
+    height: 100%;
     overflow-y: scroll;
 }
 
 #remove {
+    width: 100vw;
+    height: 200px;
     padding: 12px;
-    height: -webkit-fill-available;
-    border-top: #a80000 1px solid;
+    border-bottom: #a80000 1px solid;
 }
