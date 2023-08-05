@@ -2,9 +2,22 @@ body {
     margin: 0;
     background-color: black;
     color: #a80000;
-    padding: 12px;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 p {
     margin: 2px 0;
+}
+
+#add {
+    padding: 12px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+#remove {
+    padding: 12px;
+    height: -webkit-fill-available;
+    border-top: #a80000 1px solid;
 }
